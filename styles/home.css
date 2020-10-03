@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: auto;
+    background-color: #1e2761;
+    background-image: linear-gradient(to top, #7a2048,#1e2761 , #408ec6);
+   
+   padding: 100px 0 100px 0;
+}
+
+main{
+    width: 80vw;
+    height: auto;
+    margin: auto;
+    background-color:white;
+    box-shadow: 
+    inset 0 -3em 3em rgba(13, 17, 55, 0.1),
+            0 0 0 2px rgb(0, 0 , 0),
+             0.3em 0.3em 1em rgba(13, 17, 55,0.3);
+    border-radius: 5px;
+}
+
+/* NAVIGATION SECTION */
+#logo{
+    display: block !important;
+    background-color: #293372;
+    padding: 20px 20px 20px 25px;
+}
+#logo > a, .nav-link{
+    color: whitesmoke;
+    padding-right: 30px !important;
+}
+nav{
+    background-color: #1e2761 !important;
+}
+.nav-link:hover{
+    color: whitesmoke !important;
+}
+.nav-link:active{
+  font-weight: bold;
+}
+
+#sub-main{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+/* IMAGE MENU SECTION */
+#menu-section{
+    height: auto;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+
+.menu-img{
+    background-image: url('../images/splash2.jpg');
+    height: 250px;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.menu-img-links{
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#sec-img{
+    background-image: url('../images/splash1.jpg');
+}
+#share-page, #create-website{
+    background-color: white;
+    height: auto;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.2), 0px 1px 5px 2px rgba(0, 0, 0, 0.19);
+    margin: 55px 10px 30px 10px;
+    padding: 15px 30px 15px 15px;
+    border-radius: 10px;
+}
+
+#share-page > h3, #create-website-head{
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    width: 100%;
+}
+.share-page-links{
+    padding-left: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+.share-page-links:hover{
+    color: #408ec6;
+    text-decoration: none;  
+}
+
+#create-website{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: auto;
+    margin-top: 0;
+}
+#create-website > P{
+   font-family: Georgia, 'Times New Roman', Times, serif;
+ margin-right: 60px;
+}
+
+#btn{
+    background-color: #1e2761 ;
+    border: none;
+    border-radius: 50px;
+    padding: 7px 30px;
+    color: white;
+    margin-right: -10px;
+    width: 98%;
+}
+
+/* slogan section */
+#slogan-section-head{
+    font-weight: bold;
+    padding: 35px 0 20px 15px;
+}
+#slogan-section-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+
+#enjoy{
+    padding: 40px 0 40px 0;
+    font-family: fantasy;
+}
+
+hr{
+    border: 0.2px solid gray;
+ 
+}
+
+@media(max-width: 800px){
+    .navbar-toggler{
+        color: white;
+        background-color: #7a2048;
+        border: 1px solid #408ec6;
+    }
+    .navbar-toggler:active{
+        border: 1px solid #408ec6;
+    }
+}
